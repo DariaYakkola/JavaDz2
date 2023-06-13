@@ -7,7 +7,7 @@ public class Task1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Сколько будет чисел? ");
         int n = sc.nextInt();
-        System.out.println("Сумма просытх чисел: " + sumPrimeNum(n, sc));
+        System.out.println("Сумма простых чисел: " + sumPrimeNum(n, sc));
     }
 
     /**
